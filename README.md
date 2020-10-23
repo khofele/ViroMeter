@@ -1,18 +1,31 @@
-# VirometerGmbh
+# Virometer
+
+_Diese README wird regelmäßig überarbeitet und bald auch einheitlich sein, was die Sprache angeht (entweder Englisch oder Deutsch)_
 
 This project will visualize data about Covid19. It was generated using [Nx](https://nx.dev).
 
-## Prerequisite
+<p align="center"><img src="apps/virometer/src/assets/virometerLogo.png" width="200"></p>
+
+## Erste Schritte fürs Projekt
 
 - Install Visual Studio Code
 - Installiere `NX Console` Extension
 - Installiere `ESLint` Extension
+- WICHTIG: Libraries dürfen nicht einfach so umbenannt werden, dafür gibt es eine [schematic](https://github.com/nrwl/nx/issues/2001)
+- Bevor du irgendetwas änderst, informiere dich darüber, wie der [Workspace in nrwl nx mit react-express](https://nx.dev/latest/react/workspace/workspace-overview) aufgebaut ist und was [Workplace Schematic](https://nx.dev/latest/react/workspace/schematics/using-schematics) ist
 
-## Zusatzinfos
+## Zusatzinfo
 
+- Bevor wir anfangen, sollten wir uns informieren, wie wir direkt aus unseren Issues von Bitbucket aus Branches erstellen können, die dann mit dem Issue connected sind (dafür auch unsere fancy branch Standardnamensgebung xD)
 - Um die gitbash im Terminal in VS Code auszuführen, einfach folgendes Kommando im Terminal ausführen: `` C:\Program` Files\Git\bin\bash.exe ``
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+&nbsp;&nbsp;
+
+---
+
+&nbsp;&nbsp;
+
+<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="250"></p>
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
