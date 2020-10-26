@@ -8,6 +8,8 @@ This project will visualize data about Covid19. It was generated using [Nx](http
 
 ## Erste Schritte fürs Projekt
 
+test
+
 - Install Visual Studio Code
 - Installiere `NX Console` Extension
 - Installiere `ESLint` Extension
