@@ -8,18 +8,22 @@ This project will visualize data about Covid19. It was generated using [Nx](http
 
 ## Erste Schritte fürs Projekt
 
-test
-
 - Install Visual Studio Code
 - Installiere `NX Console` Extension
 - Installiere `ESLint` Extension
+- Führe `npm install` aus...Das dauert eine Weile. Hol dir am Besten einen Kaffee :)
+- Führe `docker-compose build --parallel` aus... Das dauert evtl eine Weile (vor allem in Zukunft, wenn wir mehrere images haben). Zeit für noch einen Kaffee :D
+- Füre `docker-compose up -d` aus
 - WICHTIG: Libraries dürfen nicht einfach so umbenannt werden, dafür gibt es eine [schematic](https://github.com/nrwl/nx/issues/2001)
 - Bevor du irgendetwas änderst, informiere dich darüber, wie der [Workspace in nrwl nx mit react-express](https://nx.dev/latest/react/workspace/workspace-overview) aufgebaut ist und was [Workplace Schematic](https://nx.dev/latest/react/workspace/schematics/using-schematics) ist
 
 ## Zusatzinfo
 
-- Bevor wir anfangen, sollten wir uns informieren, wie wir direkt aus unseren Issues von Bitbucket aus Branches erstellen können, die dann mit dem Issue connected sind (dafür auch unsere fancy branch Standardnamensgebung xD)
 - Um die gitbash im Terminal in VS Code auszuführen, einfach folgendes Kommando im Terminal ausführen: `` C:\Program` Files\Git\bin\bash.exe ``
+
+## Datenbank
+
+- [How To](https://confluence-student.it.hs-heilbronn.de/display/LAPSW2020WiSeTeam3/LABSW20T3-39+-+feat%28db%29%3A+datenbank+aufsetzen)
 
 &nbsp;&nbsp;
 
