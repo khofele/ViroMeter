@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Message } from '@virometer-gmbh/api-interfaces';
+import './app.css';
 
 export const App = () => {
   const [m, setMessage] = useState<Message>({ message: '' });
@@ -11,33 +12,21 @@ export const App = () => {
   }, []);
 
   return (
-
-    <body>
-     <header>
-      <div className="options">
+    <div>
+      <div className="header-grid">
         <img className="logo" src="/assets/virometerLogo.png" alt="heart" />
         <h1 className="heading">ViroMeter</h1>
+        <div className="togglebutton">Togglebutton</div>
+        <div className="menuu">Menu</div>
       </div>
-     </header>
-      <main>
-        <section>
-          <img className="section-img" src="/assets/table.png" alt="important graph"></img>
-        </section>
-        <section>
-          <img className="section-img" src="/assets/mapDeutschland.png" />
-        </section>
-        <section className="bigbottom">
-        <img className="section-img" src="/assets/zahlen.png" />
-        </section>
-        <section className="bigtitle">
-        <img className="section-img" src="/assets/liniendiagramm.png" />
-        </section>
-        <section>
-        <img className="section-img" src="/assets/pieChart.png" />
-        </section>
-      </main>
-  </body>
-  
+      <div className="grid-container">
+        <div className="list">Tabelle</div>
+        <div className="map">Map</div>
+        <div className="numberbox">Numberbox</div> 
+        <div className="verlaufsdiagramm">Verlaufsdiagramm</div>
+        <div className="kuchendiagramm">Kuchendiagramm</div>
+      </div>
+    </div>
   );
 };
 
