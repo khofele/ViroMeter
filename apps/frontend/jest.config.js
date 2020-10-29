@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'virometer',
+  displayName: 'frontend',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nrwl/react/plugins/jest',
@@ -9,5 +9,5 @@ module.exports = {
     ],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/virometer',
+  coverageDirectory: '../../coverage/apps/frontend',
 };
