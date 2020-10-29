@@ -18,23 +18,30 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
       }
     }
   },
   "projects": {
-    "virometer": {
-      "tags": []
-    },
-    "virometer-e2e": {
-      "tags": [],
-      "implicitDependencies": ["virometer"]
-    },
-    "api": {
-      "tags": []
-    },
     "api-interfaces": {
       "tags": []
+    },
+    "backend": {
+      "tags": []
+    },
+    "frontend": {
+      "tags": []
+    },
+    "tests": {
+      "tags": [],
+      "implicitDependencies": [
+        "frontend"
+      ]
     }
   }
 }
