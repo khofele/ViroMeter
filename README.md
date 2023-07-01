@@ -1,6 +1,9 @@
 # Virometer
 
-_Diese README wird regelmäßig überarbeitet und bald auch einheitlich sein, was die Sprache angeht (entweder Englisch oder Deutsch)_
+“ViroMeter” ist ein Dashboard zur Darstellung verschiedener Daten und Zahlen zur Corona-Pandemie. Das Dashboard ist simpel aufgebaut und mit Erklärungen sowie sinnvollen Diagrammen versehen, um das Verständnis der Daten beim Verwender zu gewährleisten.
+Version: 2022
+
+---------------------------------------------------------------------------------------------------------------
 
 This project will visualize data about Covid19. It was generated using [Nx](https://nx.dev).
 
