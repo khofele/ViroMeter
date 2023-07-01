@@ -1,6 +1,7 @@
 # Virometer
 
 “ViroMeter” ist ein Dashboard zur Darstellung verschiedener Daten und Zahlen zur Corona-Pandemie. Das Dashboard ist simpel aufgebaut und mit Erklärungen sowie sinnvollen Diagrammen versehen, um das Verständnis der Daten beim Verwender zu gewährleisten.
+
 Version: 2022
 
 ---------------------------------------------------------------------------------------------------------------
